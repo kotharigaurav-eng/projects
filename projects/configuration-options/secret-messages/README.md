@@ -23,7 +23,7 @@ In your terminal, run the TypeScript compiler via the `tsc` script within whiche
 For example, to start the TypeScript compiler on the first step in watch mode:
 
 ```shell
-npm run tsc -- --project 01-encoded-outputs --watch
+bun run tsc --project 01-encoded-outputs --watch
 ```
 
 ## Steps

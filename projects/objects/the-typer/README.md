@@ -20,7 +20,7 @@ In your terminal, run the TypeScript compiler via the `tsc` script.
 For example, to start the TypeScript compiler in watch mode:
 
 ```shell
-npm run tsc -- --watch
+bun run tsc --watch
 ```
 
 ## Specification

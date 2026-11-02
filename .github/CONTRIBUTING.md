@@ -17,7 +17,7 @@ If you plan on sending pull requests, however, you'll need to [fork the reposito
 ```shell
 git clone https://github.com/your-username/projects learning-typescript-projects
 cd learning-typescript-projects
-npm install
+bun install
 ```
 
 ## Reporting Issues

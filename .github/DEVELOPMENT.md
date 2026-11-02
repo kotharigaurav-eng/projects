@@ -23,5 +23,5 @@ Each project should have two scripts:
 CI tasks verify project solutions:
 
 - [solutions.yml](./workflows/solutions.yml): that `test:solution` passes
-- [test.yml](./workflows/test.yml): that replacing original files with solutions passes `npm run test`
-- [tsc.yml](./workflows/tsc.yml): that replacing original files with solutions passes `npm run tsc`
+- [test.yml](./workflows/test.yml): that replacing original files with solutions passes `bun run test`
+- [tsc.yml](./workflows/tsc.yml): that replacing original files with solutions passes `bun run tsc`

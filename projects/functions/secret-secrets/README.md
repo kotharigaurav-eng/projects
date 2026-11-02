@@ -17,14 +17,14 @@ In one terminal, run the TypeScript compiler via the `tsc` script within whichev
 For example, to start the TypeScript compiler on the first step in watch mode:
 
 ```shell
-npm run tsc -- --project 01-incoming-cipher --watch
+bun run tsc --project 01-incoming-cipher --watch
 ```
 
 In another terminal, run Jest via the `test` script on whichever step you're working on.
 For example, to start tests for the first step in watch mode:
 
 ```shell
-npm run test -- 1 --watch
+bun run test 1 --watch
 ```
 
 ## Steps

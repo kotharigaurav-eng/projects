@@ -64,7 +64,7 @@ for (const project of changedProjects) {
 	cd(project);
 
 	try {
-		const result = await $`npm run ${command}`;
+		const result = await $`bun run ${command}`;
 
 		if (result.exitCode) {
 			failedProjects.push(project);

@@ -19,7 +19,7 @@ In your terminal, run Jest via the `test` script on whichever step you're workin
 For example, to start tests for the first step in watch mode:
 
 ```shell
-npm run test -- 1 --watch
+bun run test 1 --watch
 ```
 
 ## Steps

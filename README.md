@@ -22,12 +22,12 @@ I'm excited you're here -- whether you're using the projects to practice as you 
 
 ## Setup
 
-Clone the repository to your computer, then run `npm install` to install packages.
+Clone the repository to your computer, then run `bun install` to install packages.
 
 ```shell
 git clone https://github.com/LearningTypeScript/projects learning-typescript-projects
 cd learning-typescript-projects
-npm install
+bun install
 ```
 
 Assuming that all succeeded, you're now ready to work on any and all projects! 🚀

@@ -20,14 +20,14 @@ In one terminal, run the TypeScript compiler via the `tsc` script.
 For example, to start the TypeScript compiler in watch mode:
 
 ```shell
-npm run tsc -- --watch
+bun run tsc --watch
 ```
 
 In another terminal, run Jest via the `test` script.
 For example, to start tests in watch mode:
 
 ```shell
-npm run test -- --watch
+bun run test --watch
 ```
 
 ## Specification

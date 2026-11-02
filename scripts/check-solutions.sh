@@ -5,7 +5,7 @@ for path in $(find projects -depth); do
 	if [ -e $path/package.json ]; then
 		echo -e "\nRunning $1 for $path"
 		cd $path
-		npm run $1
+		bun run $1
 		exit_code=$?
 
 		if [ $exit_code -ne 0 ]; then
